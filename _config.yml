@@ -20,7 +20,7 @@ timezone: Asia/Baku
 
 title: Javanshir Manafov # the main title
 
-tagline: Empowering through knowledge sharing # it will display as the sub-title
+tagline: Empowering through knowledge sharing #  it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
