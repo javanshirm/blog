@@ -28,8 +28,8 @@ description: >- # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ""
 
-github:
-  username: javanshirm # change to your github username
+linkedin:
+  username: javanshirmanafov # change to your github username
 
 twitter:
   username: JavanshirManaf # change to your twitter username
