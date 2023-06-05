@@ -1,6 +1,6 @@
 var jsonip = " ";var jsonhostname = " ";var jsoncountry = " ";var jsonorg = " ";var jsontimezone = " ";
 function getIPInfo() {
-    document.write(`<h2>IP：`+jsonip+`</h2>`);
+    document.write(`<h2>ip：`+jsonip+`</h2>`);
     if(jsonhostname != " ") {
         document.write(`<h2>HSTNME：`+jsonhostname+`</h2>`);
     }
