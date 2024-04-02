@@ -51,3 +51,26 @@ Download the .zip file on the main page of the GitHub and extract the .zip file 
 Right-click the PowerShell file that you'd like to run and click on "Run With PowerShell"
 This will allow the script to run without having to do the above steps but Powershell will ask if you're sure you want to run this script.
 Remember this script NEEDS to be run as admin in order to function properly.
+
+-
+
+You can convert the Standard edition of Windows Server to the Datacenter edition as follows:
+
+Determine that Windows Server Standard is the current edition name by running the following command. The output is an abbreviated form of the edition name, for example Windows Server Standard (Desktop Experience) edition is ServerStandard.
+
+Windows Command Prompt
+
+Copy
+DISM /online /Get-CurrentEdition
+Verify that Windows Server Datacenter is a valid option to convert to by running the following command:
+
+Windows Command Prompt
+
+Copy
+DISM /online /Get-TargetEditions
+Enter ServerDatacenter and your retail product key in the following command:
+
+Windows Command Prompt
+
+Copy
+DISM /online /Set-Edition:ServerDatacenter /ProductKey:<product key> /AcceptEula
